@@ -1,0 +1,25 @@
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: rgba(24, 24, 24, 0.970);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+nav>.logo{
+    height: 100%;
+    width: 10%;
+}
+
+nav>.menu{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    text-transform: capitalize;
+    font-weight: 600;
+}
